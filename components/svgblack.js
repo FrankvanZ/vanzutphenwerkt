@@ -30,7 +30,7 @@ const SvgBlack = () => {
           height="12.589"
           fillOpacity="0"
           stroke="#000"
-          stroke-width=".611"
+          strokeWidth=".611"
         />
         <g
           transform="matrix(.41963 0 0 .41963 -20.477 -30.007)"
