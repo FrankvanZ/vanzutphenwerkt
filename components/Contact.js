@@ -12,8 +12,8 @@ export default function Contact() {
         </div>
         <div className="text-white flex flex-col font-thin sm:w-1/2">
           <form className="flex flex-col">
-            <label for="name" className="font-normal pb-1 py-4">
-              Naam<span class="text-red-500">*</span>
+            <label htmlFor="name" className="font-normal pb-1 py-4">
+              Naam<span className="text-red-500">*</span>
             </label>
             <input
               type="text"
@@ -21,8 +21,8 @@ export default function Contact() {
               className="bg-black backdrop-blur-sm bg-opacity-20 min-w-full p-1.5 font-thin text-sm"
             />
 
-            <label for="email" className="font-normal pb-1 py-4">
-              E-mail<span class="text-red-500">*</span>
+            <label htmlFor="email" className="font-normal pb-1 py-4">
+              E-mail<span className="text-red-500">*</span>
             </label>
             <input
               type="email"
@@ -30,7 +30,7 @@ export default function Contact() {
               className="bg-black backdrop-blur-sm bg-opacity-20 min-w-full p-1.5 font-thin text-sm"
             />
 
-            <label for="telephone" className="font-normal pb-1 py-4">
+            <label htmlFor="telephone" className="font-normal pb-1 py-4">
               Telefoon
             </label>
             <input
@@ -39,8 +39,8 @@ export default function Contact() {
               className="bg-black backdrop-blur-sm bg-opacity-20 min-w-full p-1.5 font-thin text-sm"
             />
 
-            <label for="question" className="font-normal pb-1 py-4">
-              Uw vraag<span class="text-red-500">*</span>
+            <label htmlFor="question" className="font-normal pb-1 py-4">
+              Uw vraag<span className="text-red-500">*</span>
             </label>
             <textarea
               rows="5"

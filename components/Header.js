@@ -10,14 +10,14 @@ export default function Header() {
       <div className="mx-auto px-4">
         {/* Desktop */}
         <div className="flex justify-between py-4 md:px-12 px-4">
-          <a href="/" className="flex">
+          <Link href="/" className="flex">
             <div className="flex space-x-2 items-center">
               <Svgwhite />
               <span className="font-bold text-2xl text-slate-200">
                 vanzutphenwerkt
               </span>
             </div>
-          </a>
+          </Link>
           <div className="flex justify-between">
             <div className="hidden md:flex items-center space-x-8 px-2">
               <Link href="/over-mij">
