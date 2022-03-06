@@ -6,9 +6,10 @@ export default function About() {
     een gefaseerde aanpak, vrijwel alles is mogelijk. Ik denk graag
     met u mee om binnen uw budget uw droomtuin te realiseren. Heeft u vragen of wilt u vrijblijvend advies omtrent
     de aanpak van uw tuin, `;
-  const aboutSecondText = ` en neem contact op.`;
+  const aboutSecondText = ` neem contact op via onderstaande gegevens.`;
   const clickHereText = `klikt u dan hier`;
   const aboutTitle = "Uw hovenier";
+  const imgSrc = "/vince.jpeg";
   return (
     <div className="flex max-w-3xl max-h-4xl mx-8 pt-12">
       {/* 768 px and up  */}
@@ -19,7 +20,7 @@ export default function About() {
           </h1>
           <div>
             <Image
-              src="/init.png"
+              src={imgSrc}
               alt="About"
               layout="responsive"
               height={782}
@@ -32,9 +33,9 @@ export default function About() {
           <div className="max-w-sm">
             <p className="text-white sm:text-small font-thin pt-8">
               {aboutText}
-              <a href="#contact" className="underline font-bold">
+              {/* <a href="#contact" className="underline font-bold">
                 {clickHereText}
-              </a>
+              </a> */}
               {aboutSecondText}
             </p>
           </div>
@@ -46,7 +47,7 @@ export default function About() {
           <h1 className="text-xl text-white font-bold pb-4">{aboutTitle}</h1>
           <div className="flex">
             <Image
-              src="/init.png"
+              src={imgSrc}
               alt="About"
               height={307}
               width={181}
@@ -55,9 +56,9 @@ export default function About() {
           </div>
           <p className="text-white text-small font-thin pt-2">
             {aboutText}{" "}
-            <a href="#contact" className="underline font-bold">
+            {/* <a href="#contact" className="underline font-bold">
               {clickHereText}
-            </a>
+            </a> */}
             {aboutSecondText}
           </p>
         </div>

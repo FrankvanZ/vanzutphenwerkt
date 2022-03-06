@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div id="contact" className="flex max-w-8xl max-h-4xl mx-8 pt-16">
+    <div id="contact" className="flex max-w-8xl max-h-4xl mx-8 pt-16 mb-12">
       <div className="flex flex-col grow sm:flex-row sm:justify-between bg-black backdrop-blur-sm bg-opacity-50 p-6 rounded-2xl space-y-4">
         <div className="sm:w-1/2 py-8">
           <h1 className="text-2xl text-white text-bold">Neem contact op</h1>
