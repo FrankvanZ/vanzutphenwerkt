@@ -23,7 +23,7 @@ const SvgWhite = () => {
         <g
           transform="matrix(.41963 0 0 .41963 -20.477 -30.007)"
           fill="#fff"
-          image-rendering="auto"
+          imageRendering="auto"
           strokeWidth=".47098"
           aria-label="Z"
         >
