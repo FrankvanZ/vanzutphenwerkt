@@ -8,6 +8,9 @@ export default function Footer() {
           <a href="mailto:info@vanzutphenwerkt.nl" className="font-bold">
             info@vanzutphenwerkt.nl
           </a>
+          <a href="tel:+31630617293" className="font-bold ml-8">
+            Neem contact op per telefoon
+          </a>
         </div>
       </div>
 
@@ -16,10 +19,11 @@ export default function Footer() {
           <a href="mailto:info@vanzutphenwerkt.nl" className="font-bold">
             info@vanzutphenwerkt.nl
           </a>
+          <a href="tel:+31630617293" className="font-bold ml-8">
+            Neem contact op per telefoon
+          </a>
         </div>
       </div>
     </div>
-
-    //sm:fixed sm:bottom-0
   );
 }
