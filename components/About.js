@@ -31,6 +31,7 @@ export default function About() {
         </div>
         <div className="flex px-4 py-12">
           <div className="max-w-sm">
+            <h1 className="text-white font-bold">Welkom!</h1>
             <p className="text-white sm:text-small font-thin pt-8">
               {aboutText}
               {/* <a href="#contact" className="underline font-bold">

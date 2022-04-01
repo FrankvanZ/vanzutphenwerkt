@@ -13,16 +13,15 @@ export default function Home() {
         <meta name="description" content="hovenier Oss tuinman Oss" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <body className="bg-[url('/bg-sm.png')] md:bg-[url('/bg.png')] bg-cover bg-no-repeat">
+      <body className="bg-[url('/bg-sm.png')] lg:bg-[url('/bg.png')] bg-cover bg-no-repeat">
         <div className="container mx-auto z-50">
           <Logo />
           <div className="flex flex-col sm:flex-row justify-between">
             <Hero />
             <About />
           </div>
-          {/* <Contact /> */}
+          <Contact />
         </div>
-        <Footer />
       </body>
     </>
   );
