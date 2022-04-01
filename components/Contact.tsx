@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { useForm } from "react-hook-form";
 import ReCAPTCHA from "react-google-recaptcha";
+import Link from "next/link";
 
 interface FormData {
   name: string;
@@ -26,9 +27,9 @@ export default function Contact() {
           <p className="text-white">
             Op dit moment ervaren wij problemen met het contactformulier en
             willen we u vragen een kijkje te nemen op de&nbsp;
-            <a href="/contact" className="text-white font-bold">
-              contactpagina
-            </a>
+            <Link href="/contact">
+              <a className="text-white font-bold">contactpagina</a>
+            </Link>
             &nbsp;om te zien hoe u contact op kunt nemen.
           </p>
           {/* <p className="text-white mt-1">
