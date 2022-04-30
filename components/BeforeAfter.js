@@ -1,13 +1,13 @@
 import React from "react";
-import before1 from "../public/projects/1/before.jpg";
-import after1 from "../public/projects/1/after.jpg";
-import before2 from "../public/projects/2/before.jpeg";
-import after2 from "../public/projects/2/after.jpg";
-import before3 from "../public/projects/3/before.jpeg";
-import after3 from "../public/projects/3/after.jpg";
-import before4 from "../public/projects/4/before.jpeg";
-import after4 from "../public/projects/4/after.jpg";
-import before5 from "../public/projects/5/before.jpg";
+import before1 from "../public/before1.jpg";
+import after1 from "../public/after1.jpg";
+import before2 from "../public/before2.jpeg";
+import after2 from "../public//after2.jpg";
+import before3 from "../public/before3.jpeg";
+import after3 from "../public//after3.jpg";
+import before4 from "../public/before4.jpeg";
+import after4 from "../public//after4.jpg";
+import before5 from "../public/before.jpg";
 
 import Image from "next/image";
 
