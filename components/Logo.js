@@ -17,11 +17,11 @@ export default function Logo() {
         </span> */}
       </div>
       <div className="flex">
-        <Link href="/projecten">
+        {/* <Link href="/projecten">
           <a className="flex items-center text-white text-xl sm:text-2xl font-bold pb-2 pl-4 pt-2 xl:drop-shadow-[0_10px_8px_rgba(0,0,0,0.75)]">
             Mijn projecten
           </a>
-        </Link>
+        </Link> */}
         <Link href="/contact">
           <a className="flex items-center text-white text-xl sm:text-2xl font-bold pb-2 pl-4 pt-2 xl:drop-shadow-[0_10px_8px_rgba(0,0,0,0.75)]">
             Contact

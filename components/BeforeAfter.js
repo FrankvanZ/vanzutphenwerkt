@@ -2,11 +2,11 @@ import React from "react";
 import before1 from "../public/before1.jpg";
 import after1 from "../public/after1.jpg";
 import before2 from "../public/before2.jpeg";
-import after2 from "../public//after2.jpg";
+import after2 from "../public/after2.jpg";
 import before3 from "../public/before3.jpeg";
-import after3 from "../public//after3.jpg";
+import after3 from "../public/after3.jpg";
 import before4 from "../public/before4.jpeg";
-import after4 from "../public//after4.jpg";
+import after4 from "../public/after4.jpg";
 import before5 from "../public/before.jpg";
 
 import Image from "next/image";
